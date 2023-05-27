@@ -1,0 +1,35 @@
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .form-control {
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #0062cc;
+  }
+  
