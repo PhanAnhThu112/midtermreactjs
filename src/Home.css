@@ -1,0 +1,21 @@
+/* Home.css */
+
+/* Set the table width to 100% */
+.table-full-width {
+    width: 100%;
+  }
+  
+  /* Align text horizontally in table cells */
+  .table td,
+  .table th {
+    text-align: center;
+  }
+  
+  /* Align buttons in a row */
+  .button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
