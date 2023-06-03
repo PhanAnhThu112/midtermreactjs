@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import '../AddProduct.css';
 
-const AddProductForm = () => {
-  // State variables to store the form inputs
+const AddProductForm = () => { 
+//Các biến trạng thái để lưu trữ các đầu vào của biểu mẫu
   const [name, setProductName] = useState('');
   const [price, setProductPrice] = useState('');
   const [image, setImage] = useState('');
@@ -16,7 +16,7 @@ const AddProductForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Create a new product object with the form data
+    //Tạo một đối tượng sản phẩm mới với dữ liệu biểu mẫu
     const newProduct = {
       name,
       price,
@@ -28,13 +28,13 @@ const AddProductForm = () => {
     };
 
     try {
-      // Send the new product data to the server or API
+      // Gửi dữ liệu sản phẩm mới đến máy chủ 
       const response = await axios.post('http://localhost:3000/products', newProduct);
 
-      // Check if the request was successful
+      //Kiểm tra xem yêu cầu có thành công không
       if (response.status === 201) {
         console.log('Product added successfully!');
-        // Reset form inputs
+        // Đặt lại đầu vào biểu mẫu thành rỗng
         setProductName('');
         setProductPrice('');
         setImage('');
@@ -43,7 +43,7 @@ const AddProductForm = () => {
         setIngredient('');
         setExpiryDate('');
 
-        // Redirect to the home page
+        //Chuyển hướng đến trang chủ
         window.location.href = '/';
       } else {
         console.error('Failed to add product.');

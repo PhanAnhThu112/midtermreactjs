@@ -21,7 +21,7 @@ const EditProductForm = () => {
   useEffect(() => {
     fetchProduct();
   }, []);
-
+//Lấy dữ liệu từ URL mình cần chỉnh sửa
   const fetchProduct = async () => {
     try {
       const response = await axios.get(`http://localhost:3000/products/${id}`);

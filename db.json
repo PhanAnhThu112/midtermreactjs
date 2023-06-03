@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "name": "Doughnuts11",
+      "name": "Doughnuts12",
       "price": "15",
       "image": "https://bizweb.dktcdn.net/100/333/744/files/banh-tiramisu-1-e3decc44-847b-4d46-a4e3-44048900b31b.jpg?v=1577694370145",
       "color": "Hồng bánh kem",
@@ -144,17 +144,14 @@
       "id": "aQGFi-p"
     },
     {
-      "name": "bánh boog",
-      "price": "90",
-      "image": "https://cdn.tgdd.vn/Files/2017/08/26/1016328/cach-lam-banh-trung-thu-nhan-dau-xanh-trung-muoi-don-gian-202108111529333672.jpg",
-      "color": "vàng",
-      "name_category": "sản phẩm mới",
-      "material": "Bánh trứng",
-      "expiry_date": "2019-11-06",
-      "origin": "Viet Nam",
-      "description": "bánh ngon",
-      "tinhtranghang": true,
-      "id": "5V-ghxy"
+      "name": "bánh quy11",
+      "price": "345678",
+      "image": "https://statics.vincom.com.vn/xu-huong/anh_thumbnail/image12-1670493799.png",
+      "name_category": "2",
+      "color": "vang",
+      "origin": "Vietnam",
+      "expiry_date": "10/09/2024",
+      "id": "wbrS_gu"
     }
   ],
   "categories": [
